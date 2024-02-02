@@ -1,10 +1,14 @@
-import React from 'react'
+import {Tooltip, Button, Box} from '@mui/material'
 
 function MuiTooltip() {
   return (
-    <div>
-      
-    </div>
+    <Box  p={5}>
+      <Tooltip title='info about button'>
+        <Button variant='contained'>
+          tooltip 
+        </Button>
+      </Tooltip>
+    </Box>
   )
 }
 
